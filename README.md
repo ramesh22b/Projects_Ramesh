@@ -58,24 +58,26 @@ Data Import: Data imported into a relational database (RDBMS) and stored in the 
 No null values were found in any column after data transformation.
 
 
-#About the Data:
+# About the Data:
 This report explores a dataset on pest populations collected across various locations in India from
 1959 to 2011
 
 
 # Data Exploration:
-Total Observations: 17636 (using SELECT COUNT(*) FROM PESTDATA;)
-Observation Years: 48 (using SELECT COUNT(DISTINCT(OBSERVATIONYEAR)) FROM PESTDATA;)
-Distinct Pest Names: Identified using SELECT DISTINCT(PESTNAME) FROM PESTDATA;
-Pest Species per Location: Determined using SELECT LOCATION, COUNT(PESTNAME) FROM PESTDATA GROUP BY LOCATION;
-Basic Descriptive Statistics:
-Total Records: 17636
-Locations/States: ANDHRA PRADESH, CHHATTISGARH, Himachal Pradesh, MANIPUR, ODISHA, PUNJAB
-Observation Years: 48
-Seasons: MONSOON, WINTER, SUMMER, POST-MONSOON
-Temperature Summary by State: Provides Min/Max values for each state.
-Distribution of Pest Values by Location: Shows average pest value per location.
+1. Total Observations: 17636 
+>. (using SELECT COUNT(*) FROM PESTDATA;)
+2. Observation Years: 48 
+>. (using SELECT COUNT(DISTINCT(OBSERVATIONYEAR)) FROM PESTDATA;)
+3. Distinct Pest Names: Identified using 
+>. SELECT DISTINCT(PESTNAME) FROM PESTDATA;
+4. Pest Species per Location: Determined using 
+>. SELECT LOCATION, COUNT(PESTNAME) FROM PESTDATA GROUP BY LOCATION;
 
+
+# Basic Descriptive Statistics:
+1. Locations/States: ANDHRA PRADESH, CHHATTISGARH, Himachal Pradesh, MANIPUR, ODISHA, PUNJAB
+2. Observation Years: 48
+3. Seasons: MONSOON, WINTER, SUMMER, POST-MONSOON
 
 # Questions for Further Analysis:
 Pest Value Variation Across Locations: How does average pest value vary across locations?
@@ -99,13 +101,5 @@ Highest Total Pest Value by Location: Which five locations have the highest tota
 The data we have is a good starting point, but it's not enough to say for sure how weather affects pests. By looking at all the data instead of just a small piece, and using tools like pie charts and graphs, we can get a clearer picture of how weather affects pests.
 
 
-
-
-
-
-
-
 THANK YOU
 
-
-# Pestdata_Analysis
