@@ -1,6 +1,6 @@
-#Pest Data Project Analysis Summary
+# Pest Data Project Analysis Summary
 
-#Introduction:
+# Introduction:
 This report examines a pest population dataset collected across various locations in India (1959-2011). It investigates potential relationships between weather conditions and pest activity for ten pest species:
 
 Gall Midge
@@ -15,16 +15,16 @@ LeafBlast
 NeckBlast
 
 
-#Objective:
+# Objective:
 The primary objective is to gain insights that can inform pest management strategies across Indian regions.
 
 
 
-#Data Analysis:
+# Data Analysis:
 
 Data Import: Data imported into a relational database (RDBMS) and stored in the "PESTDATA" table.
 
-#Table Schema:
+# Table Schema:
 
 
 Observation Year (INT)
@@ -46,7 +46,7 @@ Average Relative Humidity (HUMIDITY_AVG)
 Temperature Difference (MAXT - MINT)
 
 
-#Data Cleaning After Transformation:
+# Data Cleaning After Transformation:
 No null values were found in any column after data transformation.
 
 
@@ -54,7 +54,7 @@ No null values were found in any column after data transformation.
 This report explores a dataset on pest populations collected across various locations in India from
 1959 to 2011
 
-#Data Exploration:
+# Data Exploration:
 Total Observations: 17636 (using SELECT COUNT(*) FROM PESTDATA;)
 Observation Years: 48 (using SELECT COUNT(DISTINCT(OBSERVATIONYEAR)) FROM PESTDATA;)
 Distinct Pest Names: Identified using SELECT DISTINCT(PESTNAME) FROM PESTDATA;
@@ -68,7 +68,7 @@ Temperature Summary by State: Provides Min/Max values for each state.
 Distribution of Pest Values by Location: Shows average pest value per location.
 
 
-#Questions for Further Analysis:
+# Questions for Further Analysis:
 Pest Value Variation Across Locations: How does average pest value vary across locations?
 Maximum Temperature vs. Average Pest Value
 Seasonal Pest Value Variation: How does average pest value vary across seasons for each year?
@@ -85,7 +85,7 @@ Highest Total Pest Value by Year: Which five years have the highest total pest v
 Highest Total Pest Value by Location: Which five locations have the highest total pest value summed across all observation years?
 
 
-#Future Considerations:
+# Future Considerations:
 The data we have is a good starting point, but it's not enough to say for sure how weather affects pests. By looking at all the data instead of just a small piece, and using tools like pie charts and graphs, we can get a clearer picture of how weather affects pests.
 
 
