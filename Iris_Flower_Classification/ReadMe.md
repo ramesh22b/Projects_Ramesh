@@ -14,3 +14,16 @@ This project implements a classification model to predict the species of Iris fl
 - Confusion matrix heatmap and classification report
 - Cross-validation for robustness
 - Model saving for reuse
+
+## Project structure clarity 
+iris-logistic-regression/
+├── data/
+│   └── Iris.csv
+├── notebooks/
+│   └── iris_classification.ipynb
+├── scripts/
+│   └── iris_logistic_regression.py
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore
